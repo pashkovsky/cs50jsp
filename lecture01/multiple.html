@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      h1, h2 {
+        color: red;
+      }
+      ol > li {
+        color: blue;
+      }
+      ul li {
+        color: green;
+      }
+      a::before {
+        content: "\21d2  Click here: ";
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Big Headline</h1>
+    <h2>Smaller Headline</h2>
+    <ol>
+      <li>list item one</li>
+      <li>list item two</li>
+        <ul>
+          <li>sublist item one</li>
+          <li>sublist item two</li>
+        </ul>
+      <li>list item three</li>
+    </ol>
+    <ul>
+      <li>other list one</li>
+      <li>other list two</li>
+    </ul>
+    <ul>
+      <li><a href="#">one link</a></li>
+      <li><a href="#">another link</a></li>
+      <li><a href="#">third link</a></li>
+    </ul>
+  </body>
+</html>
